@@ -1,6 +1,13 @@
 <template>
   <div class="container">
-    <nuxt-link to="/users">Users</nuxt-link>
+    <ul>
+      <li>
+        <nuxt-link to="/users">Users</nuxt-link>
+      </li>
+      <li>
+        <nuxt-link to="/products">Products</nuxt-link>
+      </li>
+    </ul>
   </div>
 </template>
 
